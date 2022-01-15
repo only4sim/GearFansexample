@@ -8,6 +8,8 @@
   "license": "BSD-3-Clause",
   "scripts": {
     "start": "ts-node src/main.ts",
+    "key": "ts-node src/key.ts",
+    "metadata": "ts-node src/metadata.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
