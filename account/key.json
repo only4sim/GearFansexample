@@ -1,0 +1,14 @@
+{
+  "encoded": "Txk/0zM9C6TM7vXULilKPkex5LyRCeRcrhwvyTqcPKgAgAAAAQAAAAgAAABvGZCfrzU2zR2I42fZcn3N6oCsGYsKSgpUPTkqNLVM4gkE1Iq0HdDvRz/fpA7qdtsDgiUfC/c+F+B9CXHGV5H19ST5Wp2L+tgZdZ4Oy8LNNDfkR2rd79aOqbJgA44J0n1BfULi3GOZ16Ci6Q3peCCNZm0Y/SrIvnPFObbehE2pGgviGQzVoDv8YK9lPfShusJDGmVahBWfbHEGPwdG",
+  "encoding": {
+    "content": ["pkcs8", "sr25519"],
+    "type": ["scrypt", "xsalsa20-poly1305"],
+    "version": "3"
+  },
+  "address": "5CyREBErNFhogptd92dtC8ybuoUczVYh2ijvdhTpS2PJGeq7",
+  "meta": {
+    "genesisHash": null,
+    "name": "gearfans",
+    "whenCreated": 1640966400000
+  }
+}
