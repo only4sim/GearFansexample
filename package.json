@@ -7,7 +7,7 @@
   "author": "gearfans",
   "license": "BSD-3-Clause",
   "scripts": {
-    "start": "ts-node src/main.ts",
+    "connect": "ts-node src/connect.ts",
     "key": "ts-node src/key.ts",
     "metadata": "ts-node src/metadata.ts",
     "test": "echo \"Error: no test specified\" && exit 1"

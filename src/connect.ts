@@ -2,7 +2,6 @@ import { GearApi } from '@gear-js/api'
 
 async function connect() {
   const rpc = "wss://rpc-node.gear-tech.io"
-  const workshopRpc = "wss://node-workshop.gear.rs/"
 
   const gearApi = await GearApi.create({
     providerAddress: rpc
