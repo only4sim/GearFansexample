@@ -11,15 +11,17 @@ async function connect() {
     gearApi.chain(),
     gearApi.nodeName(),
     gearApi.nodeVersion(),
-  ])
+  ]);
 
-  console.log(`You are connected to chain ${chain} using ${nodeName} v${nodeVersion}`)
+  console.log(
+    `You are connected to chain ${chain} using ${nodeName} v${nodeVersion}`,
+  );
 
-  gearApi.gearEvents.subscribeNewBlocks((header) => {
-    console.log(`New block with number: ${header.number.toNumber()} and hash: ${header.hash.toHex()}`)
-  })
-
-  return gearApi
+  const unsub = await gearApi.gearEvents.subscribeToNewBlocks((header) => {
+    console.log(
+      `New block with number: ${header.number.toNumber()} and hash: ${header.hash.toHex()}`,
+    );
+  });
 }
 
 connect().catch(console.error)
