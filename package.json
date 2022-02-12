@@ -8,6 +8,7 @@
   "license": "BSD-3-Clause",
   "scripts": {
     "connect": "ts-node src/connect.ts",
+    "event": "ts-node src/event.ts",
     "mint": "ts-node src/mint.ts",
     "balanceof": "ts-node src/balanceof.ts",
     "key": "ts-node src/key.ts",
