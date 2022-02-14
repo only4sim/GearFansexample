@@ -2,6 +2,10 @@
 
 gear-js 是 Gear 的 js sdk，通过这个工具我们可以连接节点，上传合约，发送交易，还有解析 Gear 合约等。
 
+https://idea.gear-tech.io/ 最核心的功能就是由 gear-js 提供支持的。
+
+> ![](./img/gear-idea.png)
+
 # 如何使用 gear js sdk
 
 ## 如何安装
