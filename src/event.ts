@@ -1,11 +1,11 @@
 const fs = require("fs")
 import {
   GearApi,
-  LogData,
-  getWasmMetadata,
   CreateType,
+  getWasmMetadata,
+  LogData,
   MessageDispatchedData,
-} from '@gear-js/api'
+} from '@gear-js/api';
 
 async function getMessageDispatchedEvent() {
   const rpc = "wss://rpc-node.gear-tech.io"
@@ -15,7 +15,7 @@ async function getMessageDispatchedEvent() {
     providerAddress: rpc
   })
 
-  gearApi.allEvents((events) => {
+  gearApi.query.system.events((events) => {
     events.forEach(async ({
       event: { data, method }
     }) => {
