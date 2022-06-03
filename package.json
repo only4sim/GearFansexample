@@ -17,9 +17,9 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "@gear-js/api": "^0.17.4",
-    "@polkadot/api": "^8.1.1",
-    "@polkadot/util": "^9.0.1"
+    "@gear-js/api": "^0.19.2",
+    "@polkadot/api": "^8.6.2",
+    "@polkadot/util": "^9.3.1"
   },
   "devDependencies": {
     "@types/node": "^17.0.2",
