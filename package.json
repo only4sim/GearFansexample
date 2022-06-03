@@ -14,6 +14,7 @@
     "key": "ts-node src/key.ts",
     "metadata": "ts-node src/metadata.ts",
     "upload": "ts-node src/upload.ts",
+    "subscribe": "node src/subscribe.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
