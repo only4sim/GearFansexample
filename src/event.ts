@@ -1,8 +1,13 @@
 const fs = require("fs")
+
 import {
   GearApi,
   CreateType,
   getWasmMetadata,
+  DispatchMessageEnqueuedData,
+  InitFailureData,
+  InitMessageEnqueuedData,
+  InitSuccessData,
   LogData,
   MessageDispatchedData,
 } from '@gear-js/api';
@@ -48,11 +53,10 @@ async function getMessageDispatchedEvent() {
         const payload = logdata.payload
 
         const metaFileBuffer = fs.readFileSync('./wasm/fungible_token.meta.wasm')
-
         const meta = await getWasmMetadata(metaFileBuffer)
         let type = meta.handle_output!
 
-        let decoded = CreateType.decode(type, payload, meta)
+        let decoded = CreateType.create(type, payload, meta)
         console.log(/---payload decode---/)
         console.log(JSON.stringify(decoded))
         console.log(/---payload decode---/)
