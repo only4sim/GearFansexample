@@ -55,7 +55,7 @@ async function mint() {
       payload: payload,
       //gasLimit: 2_000_000_000,
       gasLimit: 2000000,
-      value: 0.000000000002,
+      value: 0,
     }
 
     // const res = await gearApi.message.submit(message, meta)
