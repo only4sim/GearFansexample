@@ -4,7 +4,7 @@ import {GearApi, GearKeyring, getWasmMetadata, DispatchMessageEnqueuedData } fro
 import { exit } from 'process'
 
 const jsonKeyring = fs.readFileSync('./account/key.json').toString()
-const keyring = GearKeyring.fromJson(jsonKeyring, "11111111")
+const keyring = GearKeyring.fromJson(jsonKeyring, "987654321")
 const metaFileBuffer = fs.readFileSync('./wasm/fungible_token.meta.wasm')
 
 const programId = "0x223a3aea44276c10764b22eae98769e68144f455ff0b10b8150a6c49e3010ea3"

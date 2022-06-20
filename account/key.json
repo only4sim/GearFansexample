@@ -1,14 +1,1 @@
-{
-  "encoded": "Txk/0zM9C6TM7vXULilKPkex5LyRCeRcrhwvyTqcPKgAgAAAAQAAAAgAAABvGZCfrzU2zR2I42fZcn3N6oCsGYsKSgpUPTkqNLVM4gkE1Iq0HdDvRz/fpA7qdtsDgiUfC/c+F+B9CXHGV5H19ST5Wp2L+tgZdZ4Oy8LNNDfkR2rd79aOqbJgA44J0n1BfULi3GOZ16Ci6Q3peCCNZm0Y/SrIvnPFObbehE2pGgviGQzVoDv8YK9lPfShusJDGmVahBWfbHEGPwdG",
-  "encoding": {
-    "content": ["pkcs8", "sr25519"],
-    "type": ["scrypt", "xsalsa20-poly1305"],
-    "version": "3"
-  },
-  "address": "5CyREBErNFhogptd92dtC8ybuoUczVYh2ijvdhTpS2PJGeq7",
-  "meta": {
-    "genesisHash": null,
-    "name": "gearfans",
-    "whenCreated": 1640966400000
-  }
-}
+{"encoded":"sv3/XHDuApeUgojrnA+Y0FP1ktgF6Koc/G4bXbPuwukAgAAAAQAAAAgAAAA50o9yCJprZ1KUY7IUAVT7Knu04QjfkPJfs2u+BvBWmZy5HEcl/UM34CRxGWCMAoiGsB5N0u12KvTengFduq0vtuoA+Gr5WCfqi6bnzoxStW8umF2wKD09qdfU44/lzIDdUYqukH6I0EllchaTNSVOUSP2HQh3YUOBxhh/iOVK/ZD208ixM23q9DWXpUkebCUso+WkyS49j+2WsXKk","encoding":{"content":["pkcs8","sr25519"],"type":["scrypt","xsalsa20-poly1305"],"version":"3"},"address":"5F6W2aPQEWcQsjUuMYa7gt5N6CPrJ8R7774hhtxo2B6Cmd5i","meta":{"genesisHash":"","isHidden":false,"name":"SubQuery & Gear Test","whenCreated":1655645647517}}

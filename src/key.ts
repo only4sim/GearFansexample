@@ -3,7 +3,7 @@ import { GearKeyring } from '@gear-js/api'
 
 const jsonKeyring = fs.readFileSync('./account/key.json').toString()
 
-const keyring = GearKeyring.fromJson(jsonKeyring, "11111111")
+const keyring = GearKeyring.fromJson(jsonKeyring, "987654321")
 
 const _pub = keyring.publicKey
 const _addressRaw = keyring.addressRaw
